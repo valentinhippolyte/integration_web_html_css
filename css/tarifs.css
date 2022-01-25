@@ -1,0 +1,388 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+h1, h2, h3, h4, h5{
+    line-height: 1.2;
+}
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.container{
+    padding: 0 4rem 0 4rem;
+}
+
+
+/*Header*/
+
+header{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: #f5f8ff;
+}
+header ul{
+    display: inline-table;
+    padding: 0;
+    border-radius: 5px;
+}
+.header_logo{
+    display: flex;
+    justify-content:center;
+}
+
+
+h1{
+    margin-left: 5px;
+    font-size: 20px;
+    color: #1b3c87;
+}
+ul {
+    list-style-type:none;
+}
+li {
+    display:inline-block;
+}
+ul li a {
+    border-radius: 5px;
+    width:100px;
+    background-color:white;
+    color:black;
+    text-decoration:none;
+    padding:6px;
+    
+}
+ul li a:hover {
+    background-color:#f5f8ff;
+    text-decoration: none;
+}
+
+
+/*Head*/
+
+#head{
+    background-color: #f5f8ff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenu_head, .header_img{
+    flex-basis: 41%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#head img{
+    width: 100%;
+}
+h2{
+    color: #1b3c87;
+    font-size: 32px;
+}
+.button_formule{
+    background-color: #46dbc9;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration:none;
+}
+.button_formule2{
+    border: 2px solid #a2a4a7;
+    border-radius: 10px ;
+    display: inline-block;
+    padding: 10px;
+    text-decoration:none;
+}
+.button_formule a, .button_formule a:hover,.button_formule2 a, .button_formule2 a:hover{
+    color: black;
+    text-decoration:none;
+}
+.button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+/*Footer*/
+footer{
+    background-color: #f5f8ff;
+    padding : 20px 4rem 20px 4rem;
+}
+.footer_logo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.nav-reseaux{
+    display: flex;
+    justify-content: space-between;
+}
+footer svg{
+    border-radius: 10px;
+    padding: 5px;
+    width: 40px;
+    background-color: #d4f7f3;
+    fill: #46dbc9;
+}
+.menu_footer ul li a {
+    background-color: #f5f8ff;
+}
+footer ul, footer li, footer a {
+    padding: 0;
+    margin: 0;
+}
+#conditions{
+    margin: 20px 20px;
+}
+#conditions ul {
+    text-align: center;
+}
+#conditions li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+/*Formules*/
+section{
+    padding: 4rem 4rem 0 4rem;
+}
+#ensemble_formule{
+    display: flex;
+}
+.icon_verte{
+    width: 30px;
+    fill: #46dbc9;
+}
+.icon_grisee{
+    width: 30px;
+    fill: #a2a4a7;
+}
+
+h3{
+    text-align: center;
+    color: #1b3c87;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.prix_starter, .prix_nolimit{
+    height: auto;
+    width : 30%;
+    border : 3px solid #f5f8ff;
+    border-radius: 15px;
+    margin : 30px 10px 30px 10px;
+}
+.prix_prenium{
+    width : 30%;
+    border : 3px solid #46dbc9;
+    border-radius: 15px;
+    margin : 0 10px 0 10px;
+}
+
+.button_formule{
+    background-color: #46dbc9;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration:none;
+}
+.categorie_prix{
+    color: #b6c1e3;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+.prix_formule{
+    color: #1b3c87;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.ensemble_caracteristique{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.ensemble_caracteristique li{
+    margin-bottom: 15px;
+}
+.caracteristique1, .caracteristique2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*FAQ*/
+.question p{
+    border-left:3px solid #46dbc9;
+    height:auto;
+    padding: 0 10px 0 10px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.question{
+    margin: 20px 20px;
+}
+.question h4{
+    color: #1b3c87;
+    font-size:19px;
+}
+
+
+
+
+
+
+
+/*
+**********************
+
+
+
+Responsive 
+
+
+
+**********************
+*/
+
+
+
+
+
+
+
+
+
+
+/*pc portable*/
+@media screen and (max-width:1280px){
+    .container{
+        padding: 0 3rem 0 3rem;
+    }
+    p{
+        font-size: 20px;
+    }
+
+}
+
+/*tablette*/
+@media screen and (max-width:768px){
+    .container{
+        padding: 0 1.5rem 0 1.5rem;
+    }
+    p{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    section{
+        padding: 1.5rem 0 1.5rem 0;
+    }
+
+    /*Head*/
+    #head{
+        flex-direction: column-reverse;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+    #head img{
+        width: 100%;
+    }
+    .contenu_head{
+        padding-bottom: 30px;
+    }
+
+    /*Formules*/
+    section{
+        padding: 1.5rem;
+    }
+    #ensemble_formule{
+        flex-direction: column;
+    }
+    .ensemble_caracteristique{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .prix_starter,.prix_prenium, .prix_nolimit{
+        width: 100%;
+        margin : 10px 10px;
+    }
+
+    /*footer*/
+    .nav-reseaux{
+        text-align: center;
+        margin: 0;
+        justify-content: center;
+    }
+    .footer_logo{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .nav-reseaux{
+        flex-direction: column;
+    }
+}
+
+
+/*mobile*/
+@media screen and (max-width:480px){
+    
+    p{
+        font-size: 16px;
+    }
+    
+    /*header*/
+    header{
+        padding: 10px 0 2rem 0;
+        text-align:center;
+    }
+    .header_logo, .menu{
+        flex-basis: 100%;
+    }
+    .header_logo{
+        margin-bottom:15px;
+    }
+    ul li a {
+        padding: 10px 30px 10px 30px;
+        margin: 0;
+    }
+    section{
+        padding: 0.5rem 0 0.5rem 0;
+    }
+
+    .ensemble_caracteristique{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+
+        /*footer*/
+        footer{
+            padding : 20px 0 20px 0;
+        }
+        
+        
+        .nav-reseaux{
+            flex-direction: column;
+        }
+
+        #conditions ul{
+            display: flex;
+            flex-direction: row;
+            
+        }
+    
+}
+
